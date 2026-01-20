@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .show {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fade 1.5s ease-in-out;
+  }
+
+  .show > div {
+    width: 100%;
+    height: 100%;
+  }
+
+  .not-show {
+    display: none;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .w-webkit-max-content {
+    width: -webkit-max-content;
+  }
+
+  .unreset a {
+    @apply underline;
+  }
+  .unreset p {
+    @apply my-4;
+  }
+  .unreset blockquote,
+  .unreset figure {
+    @apply my-4 mx-10;
+  }
+  .unreset hr {
+    @apply border;
+  }
+  .unreset h1 {
+    @apply text-4xl font-bold my-2;
+  }
+  .unreset h2 {
+    @apply text-2xl font-bold my-3;
+  }
+  .unreset h3 {
+    @apply text-lg font-bold my-4;
+  }
+  .unreset h4 {
+    @apply text-base font-bold my-5;
+  }
+  .unreset h5 {
+    @apply text-sm font-bold my-6;
+  }
+  .unreset h6 {
+    @apply text-xs font-bold my-10;
+  }
+
+  dialog.modal {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border: none;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    background: transparent;
+  }
+  dialog.modal[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  dialog.modal::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}

@@ -1,0 +1,149 @@
+.sliderTop {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.sliderTop:hover {
+  opacity: 1;
+}
+
+.sliderTop::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+  background-image: url('../../../public/assets/racing/arrow-down-avatar.png');
+  /* background: red; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* transform: rotate(180deg); */
+}
+
+.sliderTop::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background-image: url('../../../public/assets/racing/arrow-down-avatar.png');
+  /* background-size: fill; */
+  cursor: pointer;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+  background-image: url('../../../public/assets/racing/arrow-up-avatar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 50px; */
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background-image: url('../../../public/assets/racing/arrow-up-avatar.png');
+  /* background-size: fill; */
+  cursor: pointer;
+}
+
+.sliderAvatar {
+  -webkit-appearance: none;
+  width: 100%;
+  height: auto;
+  background: transparent;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.sliderAvatar:hover {
+  opacity: 1;
+}
+
+.sliderAvatar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-image: url('../../../public/assets/racing/avatar.png');
+  /* background: red; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sliderAvatar::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background-image: url('../../../public/assets/racing/avatar.png');
+  /* background-size: fill; */
+  cursor: pointer;
+}
+
+.slider2 {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 40px;
+  /* background: url('../../../public/assets/racing/red-bar.png'); */
+  background: #1b1b1b;
+  border-radius: 400px;
+  display: flex;
+  justify-content: center;
+  items-center: center;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.slider2:hover {
+  opacity: 1;
+}
+
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+
+  /* --thumb-position: 2%; */
+  width: var(--thumb-size, 1px);
+  height: var(--thumb-size, 1px);
+  appearance: none;
+  height: 35px;
+  background: #b09668;
+  cursor: pointer;
+  position: relative;
+  /* left: var(--thumb-position); */
+}
+
+.slider2::-moz-range-thumb {
+  height: 30px;
+  background: #b09668;
+  cursor: pointer;
+}

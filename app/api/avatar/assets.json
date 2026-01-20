@@ -1,0 +1,1294 @@
+{
+  "hair": [
+    {
+      "path": "/assets/avatar/unisex/hair/hairf1.png",
+      "display_path": "/assets/avatar/display/hair/hair_f01.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf1b.png",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf2.png",
+      "display_path": "/assets/avatar/display/hair/hair_f02.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf2b.png",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf6.png",
+      "display_path": "/assets/avatar/display/hair/hair_f06.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf8b.png",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf10.png",
+      "display_path": "/assets/avatar/display/hair/hair_f10.png",
+      "gender": "female",
+      "sub_path": "",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf4.png",
+      "display_path": "/assets/avatar/display/hair/hair_f04.png",
+      "gender": "female",
+      "sub_path": "",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf8.png",
+      "display_path": "/assets/avatar/display/hair/hair_f08.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf9b.png",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf12.png",
+      "display_path": "/assets/avatar/display/hair/hair_f12.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf11b.png",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf3.png",
+      "display_path": "/assets/avatar/display/hair/hair_f03.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf3b.png",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf7.png",
+      "display_path": "/assets/avatar/display/hair/hair_f07.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf6b.png",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf11.png",
+      "display_path": "/assets/avatar/display/hair/hair_f11.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf10b.png",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf5.png",
+      "display_path": "/assets/avatar/display/hair/hair_f05.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf4b.png",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf9.png",
+      "display_path": "/assets/avatar/display/hair/hair_f09.png",
+      "gender": "female",
+      "sub_path": "/assets/avatar/unisex/hair/hairf8b.png",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairf13.png",
+      "display_path": "/assets/avatar/display/hair/hair_f13.png",
+      "gender": "female",
+      "sub_path": "",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm1.png",
+      "display_path": "/assets/avatar/display/hair/hair_m01.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm1b.png",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm2.png",
+      "display_path": "/assets/avatar/display/hair/hair_m02.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm13.png",
+      "display_path": "/assets/avatar/display/hair/hair_m13.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm13.png",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm6.png",
+      "display_path": "/assets/avatar/display/hair/hair_m06.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm6b.png",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm10.png",
+      "display_path": "/assets/avatar/display/hair/hair_m10.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm10b.png",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm8.png",
+      "display_path": "/assets/avatar/display/hair/hair_m08.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm4.png",
+      "display_path": "/assets/avatar/display/hair/hair_m04.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 19
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm3.png",
+      "display_path": "/assets/avatar/display/hair/hair_m03.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 20
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm12.png",
+      "display_path": "/assets/avatar/display/hair/hair_m12.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm12.png",
+      "no": 21
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm7.png",
+      "display_path": "/assets/avatar/display/hair/hair_m07.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 22
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm11.png",
+      "display_path": "/assets/avatar/display/hair/hair_m11.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm11.png",
+      "no": 23
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm9.png",
+      "display_path": "/assets/avatar/display/hair/hair_m09.png",
+      "gender": "male",
+      "sub_path": "",
+      "no": 24
+    },
+    {
+      "path": "/assets/avatar/unisex/hair/hairm5.png",
+      "display_path": "/assets/avatar/display/hair/hair_m05.png",
+      "gender": "male",
+      "sub_path": "/assets/avatar/unisex/hair/hairm5b.png",
+      "no": 25
+    }
+  ],
+  "eyebrow": [
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow1.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_01.png",
+      "gender": "unisex",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow2.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_02.png",
+      "gender": "unisex",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow3.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_03.png",
+      "gender": "unisex",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow4.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_04.png",
+      "gender": "unisex",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow5.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_05.png",
+      "gender": "unisex",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow6.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_06.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow7.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_07.png",
+      "gender": "unisex",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow8.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_08.png",
+      "gender": "unisex",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow9.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_09.png",
+      "gender": "unisex",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow10.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_10.png",
+      "gender": "unisex",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow11.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_11.png",
+      "gender": "unisex",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow12.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_12.png",
+      "gender": "unisex",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow13.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_13.png",
+      "gender": "unisex",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow14.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_14.png",
+      "gender": "unisex",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow15.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_15.png",
+      "gender": "unisex",
+      "no": 19
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow16.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_16.png",
+      "gender": "unisex",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow17.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_17.png",
+      "gender": "unisex",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow18.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_18.png",
+      "gender": "unisex",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow19.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_19.png",
+      "gender": "unisex",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/eyebrow/brow20.png",
+      "display_path": "/assets/avatar/display/eyebrow/eyebrow_20.png",
+      "gender": "unisex",
+      "no": 9
+    }
+  ],
+  "eyes": [
+    {
+      "path": "/assets/avatar/unisex/eyes/eye1.png",
+      "display_path": "/assets/avatar/display/eyes/eye_01.png",
+      "gender": "male",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye2.png",
+      "display_path": "/assets/avatar/display/eyes/eye_02.png",
+      "gender": "male",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye12.png",
+      "display_path": "/assets/avatar/display/eyes/eye_12.png",
+      "gender": "female",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye10.png",
+      "display_path": "/assets/avatar/display/eyes/eye_10.png",
+      "gender": "male",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye14.png",
+      "display_path": "/assets/avatar/display/eyes/eye_14.png",
+      "gender": "female",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye15.png",
+      "display_path": "/assets/avatar/display/eyes/eye_15.png",
+      "gender": "female",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye16.png",
+      "display_path": "/assets/avatar/display/eyes/eye_16.png",
+      "gender": "female",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye21.png",
+      "display_path": "/assets/avatar/display/eyes/eye_21.png",
+      "gender": "female",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye17.png",
+      "display_path": "/assets/avatar/display/eyes/eye_17.png",
+      "gender": "female",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye18.png",
+      "display_path": "/assets/avatar/display/eyes/eye_18.png",
+      "gender": "female",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye3.png",
+      "display_path": "/assets/avatar/display/eyes/eye_03.png",
+      "gender": "male",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye20.png",
+      "display_path": "/assets/avatar/display/eyes/eye_20.png",
+      "gender": "female",
+      "no": 9
+    },
+
+    {
+      "path": "/assets/avatar/unisex/eyes/eye4.png",
+      "display_path": "/assets/avatar/display/eyes/eye_04.png",
+      "gender": "male",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye9.png",
+      "display_path": "/assets/avatar/display/eyes/eye_09.png",
+      "gender": "male",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye5.png",
+      "display_path": "/assets/avatar/display/eyes/eye_05.png",
+      "gender": "male",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye6.png",
+      "display_path": "/assets/avatar/display/eyes/eye_06.png",
+      "gender": "male",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye7.png",
+      "display_path": "/assets/avatar/display/eyes/eye_07.png",
+      "gender": "male",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye8.png",
+      "display_path": "/assets/avatar/display/eyes/eye_08.png",
+      "gender": "male",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye19.png",
+      "display_path": "/assets/avatar/display/eyes/eye_19.png",
+      "gender": "female",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/eyes/eye13.png",
+      "display_path": "/assets/avatar/display/eyes/eye_13.png",
+      "gender": "female",
+      "no": 19
+    }
+  ],
+  "nose": [
+    {
+      "path": "/assets/avatar/unisex/nose/nose1.png",
+      "display_path": "/assets/avatar/display/nose/nose_01.png",
+      "gender": "unisex",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose2.png",
+      "display_path": "/assets/avatar/display/nose/nose_02.png",
+      "gender": "unisex",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose3.png",
+      "display_path": "/assets/avatar/display/nose/nose_03.png",
+      "gender": "unisex",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose4.png",
+      "display_path": "/assets/avatar/display/nose/nose_04.png",
+      "gender": "unisex",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose5.png",
+      "display_path": "/assets/avatar/display/nose/nose_05.png",
+      "gender": "unisex",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose6.png",
+      "display_path": "/assets/avatar/display/nose/nose_06.png",
+      "gender": "unisex",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose7.png",
+      "display_path": "/assets/avatar/display/nose/nose_07.png",
+      "gender": "unisex",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose8.png",
+      "display_path": "/assets/avatar/display/nose/nose_08.png",
+      "gender": "unisex",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose9.png",
+      "display_path": "/assets/avatar/display/nose/nose_09.png",
+      "gender": "unisex",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose10.png",
+      "display_path": "/assets/avatar/display/nose/nose_10.png",
+      "gender": "unisex",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose11.png",
+      "display_path": "/assets/avatar/display/nose/nose_11.png",
+      "gender": "unisex",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose12.png",
+      "display_path": "/assets/avatar/display/nose/nose_12.png",
+      "gender": "unisex",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose13.png",
+      "display_path": "/assets/avatar/display/nose/nose_13.png",
+      "gender": "unisex",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose14.png",
+      "display_path": "/assets/avatar/display/nose/nose_14.png",
+      "gender": "unisex",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose15.png",
+      "display_path": "/assets/avatar/display/nose/nose_15.png",
+      "gender": "unisex",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose16.png",
+      "display_path": "/assets/avatar/display/nose/nose_16.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose17.png",
+      "display_path": "/assets/avatar/display/nose/nose_17.png",
+      "gender": "unisex",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose18.png",
+      "display_path": "/assets/avatar/display/nose/nose_18.png",
+      "gender": "unisex",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose19.png",
+      "display_path": "/assets/avatar/display/nose/nose_19.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/nose/nose20.png",
+      "display_path": "/assets/avatar/display/nose/nose_20.png",
+      "gender": "unisex",
+      "no": 19
+    }
+  ],
+  "mouth": [
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth1.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_01.png",
+      "gender": "unisex",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth2.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_02.png",
+      "gender": "unisex",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth3.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_03.png",
+      "gender": "unisex",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth4.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_04.png",
+      "gender": "unisex",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth5.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_05.png",
+      "gender": "unisex",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth6.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_06.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth7.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_07.png",
+      "gender": "unisex",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth8.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_08.png",
+      "gender": "unisex",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth9.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_09.png",
+      "gender": "unisex",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth10.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_10.png",
+      "gender": "unisex",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth11.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_11.png",
+      "gender": "unisex",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/mouth/mouth12.png",
+      "display_path": "/assets/avatar/display/mouth/mouth_12.png",
+      "gender": "unisex",
+      "no": 6
+    }
+  ],
+  "hat": [
+    {
+      "path": "",
+      "display_path": "/assets/avatar/display/hat/hat_none.png",
+      "gender": "unisex",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat7.png",
+      "display_path": "/assets/avatar/display/hat/hat_07.png",
+      "gender": "female",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat1.png",
+      "display_path": "/assets/avatar/display/hat/hat_01.png",
+      "gender": "unisex",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat2.png",
+      "display_path": "/assets/avatar/display/hat/hat_02.png",
+      "gender": "unisex",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat3.png",
+      "display_path": "/assets/avatar/display/hat/hat_03.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat4.png",
+      "display_path": "/assets/avatar/display/hat/hat_04.png",
+      "gender": "unisex",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat5.png",
+      "display_path": "/assets/avatar/display/hat/hat_05.png",
+      "gender": "unisex",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat6.png",
+      "display_path": "/assets/avatar/display/hat/hat_06.png",
+      "gender": "unisex",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat8.png",
+      "display_path": "/assets/avatar/display/hat/hat_08.png",
+      "gender": "female",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/hat/hat9.png",
+      "display_path": "/assets/avatar/display/hat/hat_09.png",
+      "gender": "female",
+      "no": 8
+    }
+  ],
+  "shirt": [
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum1.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m01.png",
+      "gender": "male",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum2.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m02.png",
+      "gender": "male",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum3.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m03.png",
+      "gender": "male",
+      "no": 2
+    },
+   
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum6.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m06.png",
+      "gender": "male",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum4.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m04.png",
+      "gender": "male",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum5.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m05.png",
+      "gender": "male",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum7.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m07.png",
+      "gender": "male",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum8.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m08.png",
+      "gender": "male",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum9.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m09.png",
+      "gender": "male",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum11.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m11.png",
+      "gender": "male",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajum10.png",
+      "display_path": "/assets/avatar/display/shirt/baju_m10.png",
+      "gender": "male",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf1.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f01.png",
+      "gender": "female",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf2.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f02.png",
+      "gender": "female",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf3.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f03.png",
+      "gender": "female",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf7.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f07.png",
+      "gender": "female",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf6.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f06.png",
+      "gender": "female",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf8.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f08.png",
+      "gender": "female",
+      "no": 16
+    }, 
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf4.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f04.png",
+      "gender": "female",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf9.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f09.png",
+      "gender": "female",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf10.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f10.png",
+      "gender": "female",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf11.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f11.png",
+      "gender": "female",
+      "no": 19
+    },
+    {
+      "path": "/assets/avatar/unisex/shirt/bajuf12.png",
+      "display_path": "/assets/avatar/display/shirt/baju_f12.png",
+      "gender": "female",
+      "no": 20
+    }
+  ],
+  "pants": [
+    {
+      "path": "/assets/avatar/unisex/pants/pantf1.png",
+      "display_path": "/assets/avatar/display/pants/celana_f01.png",
+      "gender": "female",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf3.png",
+      "display_path": "/assets/avatar/display/pants/celana_f03.png",
+      "gender": "female",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf2.png",
+      "display_path": "/assets/avatar/display/pants/celana_f02.png",
+      "gender": "female",
+      "no": 19
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf6.png",
+      "display_path": "/assets/avatar/display/pants/celana_f06.png",
+      "gender": "female",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf7.png",
+      "display_path": "/assets/avatar/display/pants/celana_f07.png",
+      "gender": "female",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf9.png",
+      "display_path": "/assets/avatar/display/pants/celana_f09.png",
+      "gender": "female",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf10.png",
+      "display_path": "/assets/avatar/display/pants/celana_f10.png",
+      "gender": "female",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantf11.png",
+      "display_path": "/assets/avatar/display/pants/celana_f11.png",
+      "gender": "female",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm1.png",
+      "display_path": "/assets/avatar/display/pants/celana_m01.png",
+      "gender": "male",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm2.png",
+      "display_path": "/assets/avatar/display/pants/celana_m02.png",
+      "gender": "male",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm3.png",
+      "display_path": "/assets/avatar/display/pants/celana_m03.png",
+      "gender": "male",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm4.png",
+      "display_path": "/assets/avatar/display/pants/celana_m04.png",
+      "gender": "male",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm5.png",
+      "display_path": "/assets/avatar/display/pants/celana_m05.png",
+      "gender": "male",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm6.png",
+      "display_path": "/assets/avatar/display/pants/celana_m06.png",
+      "gender": "male",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm7.png",
+      "display_path": "/assets/avatar/display/pants/celana_m07.png",
+      "gender": "male",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm8.png",
+      "display_path": "/assets/avatar/display/pants/celana_m08.png",
+      "gender": "male",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm9.png",
+      "display_path": "/assets/avatar/display/pants/celana_m09.png",
+      "gender": "male",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm10.png",
+      "display_path": "/assets/avatar/display/pants/celana_m10.png",
+      "gender": "male",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/pants/pantm11.png",
+      "display_path": "/assets/avatar/display/pants/celana_m11.png",
+      "gender": "male",
+      "no": 9
+    }
+  ],
+  "shoes": [
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m1.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m01.png",
+      "gender": "male",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m2.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m02.png",
+      "gender": "male",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m3.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m03.png",
+      "gender": "male",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m4.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m04.png",
+      "gender": "male",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m5.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m05.png",
+      "gender": "male",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m6.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m06.png",
+      "gender": "male",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m7.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m07.png",
+      "gender": "male"
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m8.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m08.png",
+      "gender": "male",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m9.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m09.png",
+      "gender": "male",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m10.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m10.png",
+      "gender": "male",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m11.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m11.png",
+      "gender": "male",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m12.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m12.png",
+      "gender": "male",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m13.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m13.png",
+      "gender": "male",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m14.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m14.png",
+      "gender": "male",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_m15.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_m15.png",
+      "gender": "male",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f2.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f02.png",
+      "gender": "female",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f3.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f03.png",
+      "gender": "female",
+      "no": 27
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f4.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f04.png",
+      "gender": "female",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f5.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f05.png",
+      "gender": "female",
+      "no": 25
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f6.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f06.png",
+      "gender": "female",
+      "no": 17
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f7.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f07.png",
+      "gender": "female",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f9.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f09.png",
+      "gender": "female",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f10.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f10.png",
+      "gender": "female",
+      "no": 20
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f12.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f12.png",
+      "gender": "female",
+      "no": 30
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f13.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f13.png",
+      "gender": "female",
+      "no": 21
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f14.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f14.png",
+      "gender": "female",
+      "no": 22
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f15.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f15.png",
+      "gender": "female",
+      "no": 23
+    },
+    {
+      "path": "/assets/avatar/unisex/shoes/shoe_f16.png",
+      "display_path": "/assets/avatar/display/shoes/shoe_f16.png",
+      "gender": "female",
+      "no": 24
+    }
+  ],
+  "clothes": [
+    {
+      "path": "/assets/avatar/unisex/clothes/over_m1.png",
+      "display_path": "/assets/avatar/display/clothes/overall_m01.png",
+      "gender": "male",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_m2.png",
+      "display_path": "/assets/avatar/display/clothes/overall_m02.png",
+      "gender": "male",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_m3.png",
+      "display_path": "/assets/avatar/display/clothes/overall_m03.png",
+      "gender": "male",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_m4.png",
+      "display_path": "/assets/avatar/display/clothes/overall_m04.png",
+      "gender": "male",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_f1.png",
+      "display_path": "/assets/avatar/display/clothes/overall_f01.png",
+      "gender": "female",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_f2.png",
+      "display_path": "/assets/avatar/display/clothes/overall_f02.png",
+      "gender": "female",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_f3.png",
+      "display_path": "/assets/avatar/display/clothes/overall_f03.png",
+      "gender": "female",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/clothes/over_f4.png",
+      "display_path": "/assets/avatar/display/clothes/overall_f04.png",
+      "gender": "female",
+      "no": 7
+    }
+  ],
+  "accessories": [
+    {
+      "path": "/assets/avatar/unisex/accessories/acc1.png",
+      "sub_path": "/assets/avatar/unisex/accessories/acc1b.png",
+      "display_path": "/assets/avatar/display/accessories/accessory_02.png",
+      "gender": "unisex",
+      "no": 10
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc3.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_03.png",
+      "gender": "unisex",
+      "no": 15
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc4.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_04.png",
+      "gender": "unisex",
+      "no": 16
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc5.png",
+      "sub_path": "/assets/avatar/unisex/accessories/acc5b.png",
+      "display_path": "/assets/avatar/display/accessories/accessory_05.png",
+      "gender": "unisex",
+      "no": 11
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc6.png",
+      "sub_path": "/assets/avatar/unisex/accessories/acc6b.png",
+      "display_path": "/assets/avatar/display/accessories/accessory_06.png",
+      "gender": "unisex",
+      "no": 12
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc7.png",
+      "sub_path": "/assets/avatar/unisex/accessories/acc7b.png",
+      "display_path": "/assets/avatar/display/accessories/accessory_07.png",
+      "gender": "unisex",
+      "no": 13
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc8.png",
+      "sub_path": "/assets/avatar/unisex/accessories/acc8b.png",
+      "display_path": "/assets/avatar/display/accessories/accessory_08.png",
+      "gender": "unisex",
+      "no": 14
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc10.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_10.png",
+      "gender": "unisex",
+      "no": 6
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc11.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_11.png",
+      "gender": "unisex",
+      "no": 4
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc12.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_12.png",
+      "gender": "unisex",
+      "no": 5
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc13.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_13.png",
+      "gender": "unisex",
+      "no": 2
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc14.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_14.png",
+      "gender": "unisex",
+      "no": 1
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc15.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_15.png",
+      "gender": "unisex",
+      "no": 0
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc16.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_16.png",
+      "gender": "unisex",
+      "no": 3
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc17.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_17.png",
+      "gender": "unisex",
+      "no": 7
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc18.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_18.png",
+      "gender": "unisex",
+      "no": 8
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc19.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_19.png",
+      "gender": "unisex",
+      "no": 9
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc20.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_20.png",
+      "gender": "unisex",
+      "no": 18
+    },
+    {
+      "path": "/assets/avatar/unisex/accessories/acc21.png",
+      "sub_path": "",
+      "display_path": "/assets/avatar/display/accessories/accessory_21.png",
+      "gender": "unisex",
+      "no": 17
+    }
+  ]
+}
