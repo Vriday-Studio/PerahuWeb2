@@ -60,7 +60,7 @@ const AvatarProfile = () => {
   const handleStartGame = async () => {
     // setIsInitialized(true)
     setStartGame(true)
-    router.push('/play')
+    router.push('/boat')
   }
 
   useEffect(() => {
