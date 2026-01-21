@@ -11,7 +11,10 @@ import { FormEvent, useEffect, useMemo, useState } from 'react'
 
 type StatusState = { type: 'success' | 'error'; message: string } | null
 
-const BOAT_OPTIONS = [1, 2]
+const BOAT_OPTIONS = [
+  { value: 1, label: 'Perahu Putih' },
+  { value: 2, label: 'Perahu Kuning' },
+]
 
 const BoatPage = () => {
   const { user, isReady } = useAuth()
@@ -69,6 +72,22 @@ const BoatPage = () => {
     return <Loading />
   }
 
+  const checkBadwords = async (text: string): Promise<boolean> => {
+    try {
+      const snapshot = await get(ref(database, 'count/badwords'))
+      if (snapshot.exists()) {
+        const badwordsData = snapshot.val()
+        const badwordsList = badwordsData.split('_').map((word: string) => word.trim().toLowerCase())
+        const textLower = text.toLowerCase()
+        return badwordsList.some((badword: string) => textLower.includes(badword))
+      }
+      return false
+    } catch (error) {
+      console.error('Gagal mengecek badwords:', error)
+      return false
+    }
+  }
+
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     setStatus(null)
@@ -102,6 +121,18 @@ const BoatPage = () => {
 
     setIsSubmitting(true)
     try {
+      const nameHasBadword = await checkBadwords(trimmedName)
+      const messageHasBadword = await checkBadwords(trimmedMessage)
+
+      if (nameHasBadword || messageHasBadword) {
+        setStatus({
+          type: 'error',
+          message: 'Maaf anda tak bisa mengirim pesan tersebut.',
+        })
+        setIsSubmitting(false)
+        return
+      }
+
       await set(ref(database, `count/perahu/Player/${userId}`), {
         id: userId,
         Nama: trimmedName,
@@ -160,18 +191,24 @@ const BoatPage = () => {
               <label className="text-sm text-white/80" htmlFor="boat-message">
                 Pesan untuk perahu
               </label>
-              <textarea
-                id="boat-message"
-                value={message}
-                onChange={(event) => setMessage(event.target.value)}
-                placeholder="Tulis pesan yang akan dikirim ke pemain..."
-                className="w-full rounded-xl border border-primary-brass bg-primary-dark/60 text-white p-3 outline-none focus:ring-2 focus:ring-primary-orange min-h-[100px]"
-              />
+              <div className="relative">
+                <textarea
+                  id="boat-message"
+                  value={message}
+                  onChange={(event) => setMessage(event.target.value.slice(0, 80))}
+                  maxLength={80}
+                  placeholder="Tulis pesan yang akan dikirim ke pemain..."
+                  className="w-full rounded-xl border border-primary-brass bg-primary-dark/60 text-white p-3 outline-none focus:ring-2 focus:ring-primary-orange min-h-[100px]"
+                />
+                <div className="text-xs text-white/60 text-right mt-1">
+                  {message.length}/80
+                </div>
+              </div>
             </div>
 
             <div className="space-y-2">
               <label className="text-sm text-white/80" htmlFor="boat-type">
-                Jenis perahu (1-2)
+                Jenis perahu
               </label>
               <select
                 id="boat-type"
@@ -180,8 +217,8 @@ const BoatPage = () => {
                 className="w-full rounded-xl border border-primary-brass bg-primary-dark/60 text-white p-3 outline-none focus:ring-2 focus:ring-primary-orange"
               >
                 {BOAT_OPTIONS.map((option) => (
-                  <option key={option} value={option}>
-                    {option}
+                  <option key={option.value} value={option.value}>
+                    {option.label}
                   </option>
                 ))}
               </select>
