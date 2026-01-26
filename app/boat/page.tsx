@@ -159,11 +159,10 @@ const BoatPage = () => {
     <Container>
       <div className="px-5 py-10 space-y-6">
         <div className="space-y-2">
-          <p className="text-sm text-gray-200 uppercase tracking-wide">Utility</p>
-          <h1 className="text-3xl font-semibold text-primary-brass">Spawn Boat</h1>
+          <p className="text-sm text-gray-200 uppercase tracking-wide">Perahu</p>
+          <h1 className="text-3xl font-semibold text-primary-brass">Naik Perahu</h1>
           <p className="text-sm text-white/80">
-            Kirim perintah ke aplikasi Unity untuk memunculkan perahu dengan pesan dan jenis yang
-            kamu pilih.
+            Ayo berkeliling dengan naik perahu! Tulis pesan kamu untuk ditampilkan!
           </p>
         </div>
 
@@ -226,7 +225,7 @@ const BoatPage = () => {
 
             <Button
               type="submit"
-              text="Spawn Boat"
+              text="Naik Perahu!"
               isLoading={isSubmitting}
               disabled={isSubmitting}
             />
