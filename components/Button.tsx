@@ -1,14 +1,15 @@
 import Image from 'next/image'
 
 interface props {
-  text: string
+  text?: string
+  children?: React.ReactNode
   type?: React.ButtonHTMLAttributes<HTMLButtonElement>['type']
   onClick?: () => void
   disabled?: boolean
   isLoading?: boolean
 }
 
-const Button = ({ text, type, onClick, disabled, isLoading = false }: props) => {
+const Button = ({ text, children, type, onClick, disabled, isLoading = false }: props) => {
   return (
     <div className="h-12 w-full">
       <button
@@ -26,7 +27,7 @@ const Button = ({ text, type, onClick, disabled, isLoading = false }: props) => 
             <div className="border-t-2 border-l-2 rounded-full border-white w-6 h-6 animate-spin"></div>
           </div>
         )}
-        {!isLoading && text}
+        {!isLoading && (children || text)}
       </button>
     </div>
   )
