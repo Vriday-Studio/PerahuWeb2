@@ -7,16 +7,17 @@ interface props {
   onClick?: () => void
   disabled?: boolean
   isLoading?: boolean
+  className?: string
 }
 
-const Button = ({ text, children, type, onClick, disabled, isLoading = false }: props) => {
+const Button = ({ text, children, type, onClick, disabled, isLoading = false, className }: props) => {
   return (
     <div className="h-12 w-full">
       <button
         onClick={onClick}
         type={type}
         disabled={disabled}
-        className={`active:outline-none w-full p-3 text-white rounded-2xl border shadow-[0_6px_18px_rgba(0,0,0,0.2)] touch-manipulation select-none cursor-pointer ${
+        className={className || `active:outline-none w-full p-3 text-white rounded-2xl border shadow-[0_6px_18px_rgba(0,0,0,0.2)] touch-manipulation select-none cursor-pointer ${
           disabled
             ? 'bg-gray-600 border-gray-600 text-white cursor-not-allowed'
             : 'bg-primary-orange border-primary-orange active:translate-y-1 transform duration-75'
