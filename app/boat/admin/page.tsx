@@ -22,6 +22,7 @@ interface PlayerData {
   name?: string
   Nama?: string
   avatar?: string
+  boat?: string
   jenisperahu?: number
 }
 
