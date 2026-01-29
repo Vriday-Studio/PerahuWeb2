@@ -142,7 +142,7 @@ const BoatPage = () => {
       })
       setStatus({
         type: 'success',
-        message: 'Perintah spawn perahu sudah dikirim ke Firebase.',
+        message: 'Pesan sudah terkirim! Silahkan lihat pesan keluar di layar!',
       })
     } catch (error) {
       console.error('Gagal mengirim data perahu:', error)

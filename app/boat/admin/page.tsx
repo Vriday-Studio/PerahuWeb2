@@ -183,12 +183,11 @@ const BoatAdminPage = () => {
   ]
 
   const randomGreetings = [
-    'Selamat datang di event!',
-    'Halo, selamat bermain!',
-    'Selamat bergabung dengan kami!',
-    'Terima kasih telah bergabung!',
-    'Mari bermain bersama!',
-    'Selamat menikmati!'
+    'Semoga makin banyak rejeki di tahun 2026. Amin!',
+    'Semoga saya sekeluarga sehat sehat terus',
+    'Pray for world peace',
+    'Semangat buat IP 3.5',
+    'Hope for bright and sunny day'
   ]
 
   const avatarOptions = [
@@ -203,8 +202,7 @@ const BoatAdminPage = () => {
       // Generate random data
       const randomId = generateRandomId()
       const randomName = randomNames[Math.floor(Math.random() * randomNames.length)]
-      const randomNumber = Math.floor(Math.random() * 9000) + 1000
-      const playerName = `${randomName}${randomNumber}`
+      const playerName = randomName
       const message = randomGreetings[Math.floor(Math.random() * randomGreetings.length)]
       const jenisperahu = Math.random() > 0.5 ? 1 : 2
       const avatar = avatarOptions[Math.floor(Math.random() * avatarOptions.length)]
@@ -244,6 +242,28 @@ const BoatAdminPage = () => {
     }
   }
 
+  const handleResetSceneApp = async () => {
+    try {
+      await set(ref(database, 'count/perahu/command'), 'reset')
+      setMessage({ type: 'success', text: 'Reset command terkirim' })
+      setTimeout(() => setMessage(null), 3000)
+    } catch (error) {
+      console.error('Error sending reset command:', error)
+      setMessage({ type: 'error', text: 'Gagal mengirim reset command' })
+    }
+  }
+
+  const handleResetAndClear = async () => {
+    try {
+      await set(ref(database, 'count/perahu/command'), 'resetclear')
+      setMessage({ type: 'success', text: 'Reset & Clear command terkirim' })
+      setTimeout(() => setMessage(null), 3000)
+    } catch (error) {
+      console.error('Error sending resetclear command:', error)
+      setMessage({ type: 'error', text: 'Gagal mengirim resetclear command' })
+    }
+  }
+
   if (!isReady || loading) {
     return (
       <Container>
@@ -258,22 +278,33 @@ const BoatAdminPage = () => {
     <Container>
       <div className="py-6 px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mb-6">
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold text-white">Admin Event Perahu</h1>
             <p className="text-sm text-slate-300 mt-1">Total Player: <span className="font-semibold text-lg text-white">{players.length}</span></p>
           </div>
-          <p className="text-sm text-slate-300 mt-1">Spawn Dummy Player:</p>
           
-          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 w-full sm:w-auto">
+            <span className="text-sm text-slate-300">Spawn Dummy:</span>
             <Button
               onClick={handleSpawnRandomPlayer}
               disabled={spawnLoading}
-              className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 text-base rounded-lg order-2 sm:order-1"
+              className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-2.5 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {spawnLoading ? 'Spawning...' : '+ Spawn Player'}
+              {spawnLoading ? 'Spawning...' : '+ Spawn Dummy'}
             </Button>
-          
+            <Button
+              onClick={handleResetSceneApp}
+              className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-2.5 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Reset Scene App
+            </Button>
+            <Button
+              onClick={handleResetAndClear}
+              className="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-2.5 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed mt-2"
+            >
+              Reset dan Clear
+            </Button>
           </div>
         </div>
 
@@ -376,7 +407,7 @@ const BoatAdminPage = () => {
                     <button
                       onClick={() => handleDeleteSingle(player.id)}
                       disabled={deleteLoading}
-                      className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-3 text-base rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold px-4 py-3 text-base rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       Hapus
                     </button>
@@ -414,7 +445,7 @@ const BoatAdminPage = () => {
                           <button
                             onClick={() => handleDeleteSingle(player.id)}
                             disabled={deleteLoading}
-                            className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2.5 text-base rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-5 py-2.5 text-base rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
                           >
                             Hapus
                           </button>
@@ -439,7 +470,7 @@ const BoatAdminPage = () => {
               <Button
                 onClick={handleDeletePlayers}
                 disabled={deleteLoading}
-                className="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-3 text-base rounded-lg"
+                className="flex-1 bg-orange-600 hover:bg-orange-700 text-white font-semibold px-4 py-3 text-base rounded-lg"
               >
                 {deleteLoading ? 'Menghapus...' : `Hapus (${selectedPlayers.size})`}
               </Button>
@@ -458,7 +489,7 @@ const BoatAdminPage = () => {
               <Button
                 onClick={handleDeletePlayers}
                 disabled={deleteLoading}
-                className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 text-base rounded-lg"
+                className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-3 text-base rounded-lg"
               >
                 {deleteLoading ? 'Menghapus...' : `Hapus Terpilih (${selectedPlayers.size})`}
               </Button>

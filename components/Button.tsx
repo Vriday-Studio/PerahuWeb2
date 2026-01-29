@@ -11,13 +11,36 @@ interface props {
 }
 
 const Button = ({ text, children, type, onClick, disabled, isLoading = false, className }: props) => {
+  // Default base styles
+  const baseStyles = 'px-4 py-2.5 font-semibold rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed'
+  
+  // If custom className is provided, merge with base styles
+  if (className) {
+    return (
+      <button
+        onClick={onClick}
+        type={type}
+        disabled={disabled}
+        className={`${baseStyles} ${className}`}
+      >
+        {isLoading && (
+          <div className="flex items-center justify-center h-6">
+            <div className="border-t-2 border-l-2 rounded-full border-white w-6 h-6 animate-spin"></div>
+          </div>
+        )}
+        {!isLoading && (children || text)}
+      </button>
+    )
+  }
+
+  // Default rendering with wrapper
   return (
     <div className="h-12 w-full">
       <button
         onClick={onClick}
         type={type}
         disabled={disabled}
-        className={className || `active:outline-none w-full p-3 text-white rounded-2xl border shadow-[0_6px_18px_rgba(0,0,0,0.2)] touch-manipulation select-none cursor-pointer ${
+        className={`active:outline-none w-full p-3 text-white rounded-2xl border shadow-[0_6px_18px_rgba(0,0,0,0.2)] touch-manipulation select-none cursor-pointer ${
           disabled
             ? 'bg-gray-600 border-gray-600 text-white cursor-not-allowed'
             : 'bg-primary-orange border-primary-orange active:translate-y-1 transform duration-75'
