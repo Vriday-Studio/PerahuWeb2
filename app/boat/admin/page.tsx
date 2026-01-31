@@ -35,18 +35,15 @@ const BoatAdminPage = () => {
   const [deleteLoading, setDeleteLoading] = useState(false)
   const [spawnLoading, setSpawnLoading] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
+  const [maxPlayerInput, setMaxPlayerInput] = useState<string>('')
+  const [maxPlayerLoading, setMaxPlayerLoading] = useState(false)
 
   const userId = useMemo(() => {
     const idValue = (user as any)?.id ?? (user as any)?.userID
     return typeof idValue === 'string' || typeof idValue === 'number' ? idValue : null
   }, [user])
 
-  // Check if user is admin
-  useEffect(() => {
-    if (isReady && !user) {
-      router.replace('/sign-in')
-    }
-  }, [isReady, user, router])
+
 
   // Fetch players data
   useEffect(() => {
@@ -94,6 +91,28 @@ const BoatAdminPage = () => {
     fetchPlayers()
   }, [])
 
+  // Fetch max player default value
+  useEffect(() => {
+    const fetchMaxPlayer = async () => {
+      try {
+        const snapshot = await get(ref(database, 'count/perahu/maxPlayer'))
+        if (snapshot.exists()) {
+          const value = snapshot.val()
+          if (typeof value === 'number') {
+            setMaxPlayerInput(String(value))
+          } else if (typeof value === 'string' && value.trim() !== '') {
+            setMaxPlayerInput(value)
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching maxPlayer:', error)
+        setMessage({ type: 'error', text: 'Gagal memuat max player' })
+      }
+    }
+
+    fetchMaxPlayer()
+  }, [])
+
   const handleSelectPlayer = (playerId: string) => {
     setSelectedPlayers((prev) => {
       const newSet = new Set(prev)
@@ -134,6 +153,7 @@ const BoatAdminPage = () => {
       setPlayers((prev) => prev.filter((p) => !selectedPlayers.has(p.id)))
       setSelectedPlayers(new Set())
       setMessage({ type: 'success', text: `${selectedPlayers.size} player berhasil dihapus` })
+      router.refresh()
 
       setTimeout(() => setMessage(null), 3000)
     } catch (error) {
@@ -158,6 +178,7 @@ const BoatAdminPage = () => {
         return newSet
       })
       setMessage({ type: 'success', text: 'Player berhasil dihapus' })
+      router.refresh()
       setTimeout(() => setMessage(null), 3000)
     } catch (error) {
       console.error('Error deleting player:', error)
@@ -233,6 +254,7 @@ const BoatAdminPage = () => {
       ])
 
       setMessage({ type: 'success', text: `Player ${playerName} berhasil di-spawn!` })
+      router.refresh()
       setTimeout(() => setMessage(null), 3000)
     } catch (error) {
       console.error('Error spawning player:', error)
@@ -261,6 +283,48 @@ const BoatAdminPage = () => {
     } catch (error) {
       console.error('Error sending resetclear command:', error)
       setMessage({ type: 'error', text: 'Gagal mengirim resetclear command' })
+    }
+  }
+
+  const handleMaxPlayerChange = (value: string) => {
+    if (value === '') {
+      setMaxPlayerInput('')
+      return
+    }
+
+    const parsed = Number(value)
+    if (Number.isNaN(parsed)) {
+      return
+    }
+
+    const clamped = Math.max(0, Math.min(100, Math.trunc(parsed)))
+    setMaxPlayerInput(String(clamped))
+  }
+
+  const handleSaveMaxPlayer = async () => {
+    if (maxPlayerInput === '') {
+      setMessage({ type: 'error', text: 'Masukkan angka 0 - 100' })
+      return
+    }
+
+    const parsed = Number(maxPlayerInput)
+    if (Number.isNaN(parsed) || parsed < 0 || parsed > 100) {
+      setMessage({ type: 'error', text: 'Masukkan angka 0 - 100' })
+      return
+    }
+
+    try {
+      setMaxPlayerLoading(true)
+      await set(ref(database, 'count/perahu/maxPlayer'), Math.trunc(parsed))
+      await set(ref(database, 'count/perahu/command'), 'reset')
+      setMessage({ type: 'success', text: 'Max player berhasil disimpan' })
+      router.refresh()
+      setTimeout(() => setMessage(null), 3000)
+    } catch (error) {
+      console.error('Error saving maxPlayer:', error)
+      setMessage({ type: 'error', text: 'Gagal menyimpan max player' })
+    } finally {
+      setMaxPlayerLoading(false)
     }
   }
 
@@ -305,6 +369,27 @@ const BoatAdminPage = () => {
             >
               Reset dan Clear
             </Button>
+            <div className="w-full mt-2">
+              <label className="block text-sm text-slate-300 mb-2">Max Player (0 - 100)</label>
+              <div className="flex items-center gap-2">
+                <input
+                  type="number"
+                  min={0}
+                  max={100}
+                  step={1}
+                  value={maxPlayerInput}
+                  onChange={(event) => handleMaxPlayerChange(event.target.value)}
+                  className="w-full sm:w-32 px-3 py-2 rounded-lg border border-slate-300 text-slate-900"
+                />
+                <Button
+                  onClick={handleSaveMaxPlayer}
+                  disabled={maxPlayerLoading}
+                  className="bg-slate-700 hover:bg-slate-800 text-white font-semibold px-4 py-2 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {maxPlayerLoading ? 'Menyimpan...' : 'Simpan'}
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
 
