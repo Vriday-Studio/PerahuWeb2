@@ -33,17 +33,17 @@ export const addLogUserLogin = async (userId: string | number, dataUser: any) =>
   }
 
   const logsCount = await get(ref(database, `Users/${userId}/logsCount`))
-  const todayUsersCount = await get(ref(database, `TodayUsersIK/${formattedTime}/count/login`))
+  const todayUsersCount = await get(ref(database, `TodayUsersPerahu/${formattedTime}/count/login`))
 
   await set(ref(database, `Users/${userId}/lastLoggedIn`), currentDate.toISOString())
   await set(ref(database, `Users/${userId}/logs/${(logsCount.val() || 0) + 1}`), currentDate.toISOString())
   await set(ref(database, `Users/${userId}/logsCount`), (logsCount.val() || 0) + 1)
-  await set(ref(database, `TodayUsersIK/${formattedTime}/date`), currentDate.toISOString())
+  await set(ref(database, `TodayUsersPerahu/${formattedTime}/date`), currentDate.toISOString())
   await set(
-    ref(database, `TodayUsersIK/${formattedTime}/users/${(todayUsersCount.val() || 0) + 1}`),
+    ref(database, `TodayUsersPerahu/${formattedTime}/users/${(todayUsersCount.val() || 0) + 1}`),
     user
   )
-  await set(ref(database, `TodayUsersIK/${formattedTime}/count/login`), (todayUsersCount.val() || 0) + 1)
+  await set(ref(database, `TodayUsersPerahu/${formattedTime}/count/login`), (todayUsersCount.val() || 0) + 1)
 }
 
 export const getUserByEmail = async (email: string, specificKey?: string) => {
